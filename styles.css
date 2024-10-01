@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Cotainer{
+    display: flex;
+    /* display: inline; */
+    flex-direction: row;
+    /* display: block; */
+/* justify-items: center; */
+
+    justify-content: center;
+    text-align: center;
+    margin: 100px auto;
+/* grid: 12px; */
+    /* border: solid rgb(0, 255, 247); */
+    padding: 50px;
+    margin: 80px;
+    box-shadow: 10px 2px 30px 10px blue;
+
+
+}
+
+.div{
+    border: solid;
+    box-shadow: 1px 2px 20px 2px red;
+    border-radius: 2px;
+}
+
+div{
+    gap: 2em;
+
+}
+
+#S:hover{
+    color: aqua;
+}
+
+#R:hover{
+    color: rgb(255, 0, 111);
+}
+
+
+#G:hover{
+    color: rgb(0, 255, 225);
+}
+
+
+#M:hover{
+    color: rgb(255, 0, 111);
+}
+
+
+#P:hover{
+    color: rgb(0, 255, 225);
+}
+
+
+#D:hover{
+    color: rgb(255, 0, 111);
+}
+
+
+#N:hover{
+    color: rgb(0, 255, 225);
+}
+
+
+
+
+
+h1{
+    text-align: center;
+}
+
+h1:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .container {
+      flex-basis: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-basis: 100%;
+    }
+  
+    header {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    footer {
+      font-size: 12px;
+    }
+  }
